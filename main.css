@@ -81,6 +81,22 @@ li a:hover {
 
 }
 
+#summary:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999;
+  background: linear-gradient(rgba(0,0,0,0.87),rgba(0,0,0,0.3)), url(img/sahara4.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 
 #summary h1
 {

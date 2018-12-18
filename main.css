@@ -71,13 +71,13 @@ li a:hover {
 
 #summary
 {
-  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url('img/sahara4.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.87),rgba(0,0,0,0.3)), url('img/sahara4.jpg');
   background-size: cover;
   background-position: center;
-  color: #efefef !important;
   background-attachment: fixed;
+  color: #efefef !important;
   padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 270px;
   color: #555;
 }
 
@@ -123,7 +123,8 @@ li a:hover {
 #transition
 {
   display: block;
-  padding-bottom: 0px;;
+  padding-top: 10px;
+  padding-bottom: 30px;;
   background: black;
 }
 
@@ -133,6 +134,17 @@ li a:hover {
     font-family:"Times New Roman", Times, serif;
     font-size: 4vw;
     color: lightgrey;
+}
+
+#transition p
+{
+  padding-top: 70px;
+  padding-left: 60px;
+  padding-right: 30px;
+  text-align: left;
+  font-family:"Times New Roman", Times, serif;
+  font-size: 2vw;
+  color: lightgrey;
 }
 
 
@@ -159,7 +171,6 @@ li a:hover {
   height:inherit;
   -webkit-filter: grayscale(90%); /* Safari 6.0 - 9.0 */
   filter: grayscale(90%);
-
 }
 
 .carousel-caption * {
@@ -167,7 +178,7 @@ li a:hover {
 }
 
 .carousel-caption body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:"Times New Roman", Times, serif;;
   border-width: 2px;
   border-style: dashed;
   border-color: red;
@@ -233,9 +244,104 @@ li a:hover {
 
 
 /* ------ potential effects -------*/
-.w3
 
-/* ---- About ---- */
+#wcbd2
+{
+  background-color: black;
+  padding-top: 35px;
+  padding-bottom: 50px;
+}
+
+#wcbd2 h1
+{
+  padding-bottom: 40px;
+  padding-left: 25px;
+  font-family:"Times New Roman", Times, serif;
+  color: lightgrey;
+}
+
+
+#wcbd2 p
+{
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 100px;
+  font-family:"Times New Roman", Times, serif;
+  color: lightgrey;
+}
+
+/* ---- What can be done  ---- */
+#WCBD
+{
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/glaciers.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #efefef !important;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#WCBD h1
+{
+  font-family:"Times New Roman", Times, serif;
+  text-align: center;
+  color: #efefef !important;
+  padding-bottom: 5px;
+}
+
+#WCBD h1::after /*--- not sure why there are two semicolons*/
+{
+  content: ''; /*this creates the underline*/
+  background: #efefef;
+  display: block;
+  height: 3px;
+  width: 280px;
+  margin: 20px auto 5px;
+}
+
+#WCBD p
+{
+  font-family:"Times New Roman", Times, serif;
+  font-size: 14px;
+  margin-top: 10px;
+  color: #ccc;
+}
+
+#WCBD h3
+{
+  font-family:"Times New Roman", Times, serif;
+  font-size: 30px;
+  margin-top: 20px;
+  color: #ccc;
+}
+
+
+.icon
+{
+  font-size: 40px;
+  margin: 20px auto;
+  padding: 20px;
+  height: 80px;
+  width: 80px;
+
+}
+
+.WCBD
+{
+  margin-top: 20px;
+}
+
+#news
+{
+  background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.6)),url(img/earthNasa.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #efefef !important;
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
 #news .fa /*---not sure what fa does --*/
 {
@@ -246,6 +352,28 @@ background: #fff;
 padding: 4px;
 border-radius: 50%;
 }
+
+#news h1
+{
+  font-family:"Times New Roman", Times, serif;
+  font-size: 45px;
+  text-align: center;
+  color: white !important;
+  padding-top: 10px;
+}
+
+#news h1::after /*--- not sure why there are two semicolons*/
+{
+  content: ''; /*this creates the underline*/
+  background:white;
+  display: block;
+  height: 3px;
+  width: 100px;
+  margin: 10px auto 5px;
+  margin-bottom: 45px;
+  padding: 2px;
+}
+
 
 .img-box ul
 {
@@ -264,23 +392,11 @@ border-radius: 50%;
   display: inline-block;
 }
 
-.img-box:hover ul
-{
-  opacity: 1;
-}
-
-.img-box ul, .img-box ul li
-{
-  transition: 0.5s;
-}
 
 #facts
 {
-  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(img/background1.jpg);
-  background-size: cover;
-  background-position: center;
+  background-color: black;
   color: #efefef !important;
-  background-attachment: fixed;
   padding-top: 50px;
   padding-bottom: 50px;
   color: #555;
@@ -293,15 +409,6 @@ border-radius: 50%;
   padding-bottom: 10px;
 }
 
-#services h1::after /*--- not sure why there are two semicolons*/
-{
-  content: ''; /*this creates the underline*/
-  background: #efefef;
-  display: block;
-  height: 3px;
-  width: 170px;
-  margin: 20px auto 5px;
-}
 
 .column {
     float: left;

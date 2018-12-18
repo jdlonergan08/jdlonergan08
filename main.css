@@ -72,14 +72,15 @@ li a:hover {
 #summary
 {
   background-image: linear-gradient(rgba(0,0,0,0.87),rgba(0,0,0,0.3)), url('img/sahara4.jpg');
-  background-size: cover;
-  background-position: center;
   background-attachment: fixed;
+  background-size: cover;
   color: #efefef !important;
   padding-top: 50px;
   padding-bottom: 270px;
   color: #555;
+
 }
+
 
 #summary h1
 {

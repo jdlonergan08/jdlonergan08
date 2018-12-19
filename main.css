@@ -96,24 +96,25 @@ li a:hover {
   text-align: left;
 }
 
-.column {
-    float: left;
-    width: 50%;
-}
-
-.column p
+#summary p
 {
   font-family:"Times New Roman", Times, serif;
-  float: right;
 }
 
-.column img
+#summary img
 {
   padding-left: 40px;
 }
 
+#summary .column
+{
+    width: 50%;
+    text-align: center;
+    padding-right: 40px;
+}
+
 /* Clear floats after the columns */
-.row:after {
+#summary .row:after {
     content: "";
     display: table;
     clear: both;
@@ -131,7 +132,7 @@ li a:hover {
 
 #transition h1
 {
-    text-align: right;
+    text-align: left;
     font-family:"Times New Roman", Times, serif;
     font-size: 4vw;
     color: lightgrey;
@@ -149,6 +150,17 @@ li a:hover {
 }
 
 
+#transition .row{
+  text-align: center;
+  padding-top: 40px;
+
+}
+
+#transition .row2 p
+{
+  font-size: 18px;
+  text-align: right;
+}
 /*------Slider------*/
 #slider
 {
@@ -321,16 +333,6 @@ li a:hover {
 }
 
 
-.icon
-{
-  font-size: 40px;
-  margin: 20px auto;
-  padding: 20px;
-  height: 80px;
-  width: 80px;
-
-}
-
 .WCBD
 {
   margin-top: 20px;
@@ -386,12 +388,30 @@ border-radius: 50%;
 
 #news h3
 {
+  padding-top: 10px;
+  font-size: 18px;
   font-family:"Times New Roman", Times, serif;
+  color: #939eaf;
 }
 
 #news p
 {
   font-family:"Times New Roman", Times, serif;
+}
+
+#news a {
+  font-family:"Times New Roman", Times, serif;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#news a:hover {
+  background-color: #black;
+  text-decoration: none;
+  color: lightblue;
 }
 
 .img-box ul
@@ -453,38 +473,38 @@ border-radius: 50%;
   padding-right: 75px;
 }
 /* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
+#resources .column {
   float: left;
   width: 33.33%;
   padding: 5px;
 }
 
 /* Clear floats after image containers */
-.row::after {
+#resources .row::after {
   content: "";
   clear: both;
   display: table;
 }
-.row {
+#resources  .row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
 }
 
 /* Create four equal columns that sits next to each other */
-.column {
+#resources  .column {
   flex: 25%;
   max-width: 33.3%;
   padding: 0 4px;
 }
 
-.column img {
+#resources  .column img {
   margin-top: 8px;
   vertical-align: middle;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
+#resources  @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
     max-width: 50%;
@@ -492,7 +512,7 @@ border-radius: 50%;
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+#resources  @media screen and (max-width: 600px) {
   .column {
     flex: 100%;
     max-width: 100%;
@@ -519,4 +539,9 @@ border-radius: 50%;
 margin-right: 0px;
 padding-left: 30px;
 
+}
+
+#footer .column{
+  width: 33.3%;
+  text-align: center;
 }

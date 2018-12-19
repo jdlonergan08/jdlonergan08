@@ -19,13 +19,12 @@ href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min
   <!----- navigation--->
 <section id = "nav-bar">
   <ul>
-  <li><a href="default.asp">Home</a></li>
-  <li><a href="default.asp">Summary</a></li>
-  <li><a href="news.asp">What's Happening</a></li>
-  <li><a href="contact.asp">Potential Effects</a></li>
-  <li><a href="about.asp">What can be Done</a></li>
-  <li><a href="about.asp">News</a></li>
-  <li><a href="about.asp">Additional Resources</a></li>
+  <li><a href="#intro">Home</a></li>
+  <li><a href="#summary">Summary</a></li>
+  <li><a href="#transition">What's Happening</a></li>
+  <li><a href="#WCBD">What can be Done</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#resources">Additional Resources</a></li>
 
 
 </ul>
@@ -68,12 +67,14 @@ href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min
 <section id = "transition">
  <div class = "container"> <!--- this will add some margin to both of the sides--->
    <div class = "row">
-     <div class = "column"> <!--- this is how to create 2 columns --->
-       <h1> What's Happening </h1>
-     </div>
-     <div class = "column">
-        <p>add quote</p>
-     </div>
+       <h1>"We have to wake up to the fierce urgency of the now"
+       </h1>
+   </div>
+   <div class = row2>
+     <p>- Jim Yong Kim, President of The World Bank</p>
+  </div>
+   <div class = "row"> <!--- this is how to create 2 columns --->
+     <h1> What's Happening: </h1>
    </div>
 </section>
 
@@ -89,103 +90,15 @@ href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img class="d-block img-fluid" src="img/sahara4.jpg">
-          <div class = "carousel-caption">
-            <h2>CSS Layout Flexbox</h2>
-              <p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
-              <p>Resize the browser window to see the responsive effect.</p>
-              <p><strong>Note:</strong> Flexbox is not supported in Internet Explorer 10 eand earlier versions.</p>
-
-              <header>
-                <h2>Cities</h2>
-              </header>
-
-              <section>
-                <nav>
-                  <ul>
-                  <li><a href="#">London</a></li>
-                  <li><a href="#">Paris</a></li>
-                  <li><a href="#">Tokyo</a></li>
-                </ul>
-                </nav>
-
-                <article>
-                  <h1>London</h1>
-                  <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-                  <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-                </article>
-              </section>
-
-              <footer>
-                <p>Footer</p>
-              </footer>
-
-                        </div>
-                    </div>
+          <div class = "carousel-caption"></div>
+      </div>
         <div class="carousel-item">
         <img class="d-block img-fluid" src="img/island.jpg">
-        <div class = "carousel-caption">
-          <h2>CSS Layout Flexbox</h2>
-            <p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
-            <p>Resize the browser window to see the responsive effect.</p>
-            <p><strong>Note:</strong> Flexbox is not supported in Internet Explorer 10 eand earlier versions.</p>
-
-            <header>
-              <h2>Cities</h2>
-            </header>
-
-            <section>
-              <nav>
-                <ul>
-                <li><a href="#">London</a></li>
-                <li><a href="#">Paris</a></li>
-                <li><a href="#">Tokyo</a></li>
-              </ul>
-              </nav>
-
-              <article>
-                <h1>London</h1>
-                <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-                <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-              </article>
-            </section>
-
-            <footer>
-              <p>Footer</p>
-            </footer>
-        </div>
+        <div class = "carousel-caption"></div>
       </div>
       <div class="carousel-item">
         <img class="d-block img-fluid" src="img/himalayas.jpg">
-        <div class = "carousel-caption">
-          <h2>CSS Layout Flexbox</h2>
-            <p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
-            <p>Resize the browser window to see the responsive effect.</p>
-            <p><strong>Note:</strong> Flexbox is not supported in Internet Explorer 10 eand earlier versions.</p>
-
-            <header>
-              <h2>Cities</h2>
-            </header>
-
-            <section>
-              <nav>
-                <ul>
-                <li><a href="#">London</a></li>
-                <li><a href="#">Paris</a></li>
-                <li><a href="#">Tokyo</a></li>
-              </ul>
-              </nav>
-
-              <article>
-                <h1>London</h1>
-                <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-                <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-              </article>
-            </section>
-
-            <footer>
-              <p>Footer</p>
-            </footer>
-        </div>
+        <div class = "carousel-caption"></div>
       </div>
     </div>
     <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
@@ -283,9 +196,6 @@ href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min
     <h1>What Can Be Done</h1>
     <div class  = "row WCBD">
       <div class = "col-md-3 text-center">
-        <div class = "icon">
-          <i class="fa fa-globe"></i> <!---adds computer icon below services--->
-    </div>
         <h3>Person A </h3>
         <p> Here is some more information that this person is known for and has
         done to help protect the environment -- click on the box to take you to a page
@@ -293,19 +203,13 @@ href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min
         <img src = "img/news.1.jpg" style="max-width:100%;height:auto;" class = "img-responsive">
       </div>
       <div class = "col-md-3 text-center">
-        <div class = "icon">
-          <i class="fa fa-leaf"></i> <!---adds computer icon below services--->
-  </div>
-        <h3>Person B </h3>
+      <h3>Person B </h3>
         <p> Here is some more information that this person is known for and has
         done to help protect the environment -- click on the box to take you to a page
       with more information </p>
         <img src = "img/news.1.jpg" style="max-width:100%;height:auto;" class = "img-responsive">
       </div>
       <div class = "col-md-3 text-center">
-        <div class = "icon">
-          <i class="fa fa-flag"></i> <!---adds computer icon below services--->
-    </div>
         <h3>Person C </h3>
         <p> Here is some more information that this person is known for and has
         done to help protect the environment -- click on the box to take you to a page
@@ -313,9 +217,6 @@ href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min
         <img src = "img/news.1.jpg" style="max-width:100%;height:auto;" class = "img-responsive">
       </div>
       <div class = "col-md-3 text-center">
-        <div class = "icon">
-          <i class="fa fa-flask"></i> <!---adds computer icon below services--->
-     </div>
         <h3>Person D </h3>
         <p> Here is some more information that this person is known for and has
         done to help protect the environment -- click on the box to take you to a page
@@ -334,55 +235,47 @@ href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min
     <div class = "row">
       <div class = "col-md-3 cover-shot text-center">
         <div class = "img-box">
+        <a href="#resources">
         <img src = "img/news.1.jpg" style="max-width:100%;height:auto;" class = "img-responsive"> <!--by adding img-responsive this will make your image responsive--->
-        <ul>
-          <a href = "#"><li>  <i class="fa fa-envelope-o"></i></li></a>
-          <a href = "#"><li>  <i class="fa fa-facebook"></i></li></a>
-          <a href = "#"><li>  <i class="fa fa-twitter"></i></li></a>
-        </ul>
+      </a>
         </div>
+        <a href="#resources">
         <h2>Editorial: Global warming is a Midwest crisis in the making</h2>
+      </a>
         <h3>Chicago Tribune</h3>
-        <p> here is a quick flash of what the article is about</p>
       </div>
       <div class = "col-md-3 cover-shot text-center">
         <div class = "img-box">
-        <img src = "img/news.2.jpg" style="max-width:100%;height:auto;" class = "img-responsive"> <!--by adding img-responsive this will make your image responsive--->
-        <ul>
-          <a href = "#"><li>  <i class="fa fa-envelope-o"></i></li></a>
-          <a href = "#"><li>  <i class="fa fa-facebook"></i></li></a>
-          <a href = "#"><li>  <i class="fa fa-twitter"></i></li></a>
-        </ul>
-        </div>
+      <a href="#resources">
+      <img src = "img/news.2.jpg" style="max-width:100%;height:auto;" class = "img-responsive"> <!--by adding img-responsive this will make your image responsive--->
+    </a>
+      </div>
+      <a href="#resources">
         <h2>New U.S. Climate Assessment Forecasts Dire Effects On Economy, Health</h2>
+      </a>
         <h3>NPR</h3>
-        <p> here is a quick flash of what the article is about</p>
       </div>
       <div class = "col-md-3 cover-shot text-center">
         <div class = "img-box">
+        <a href="#resources">
         <img src = "img/news.3.jpg" style="max-width:100%;height:auto;" class = "img-responsive"> <!--by adding img-responsive this will make your image responsive--->
-        <ul>
-          <a href = "#"><li>  <i class="fa fa-envelope-o"></i></li></a>
-          <a href = "#"><li>  <i class="fa fa-facebook"></i></li></a>
-          <a href = "#"><li>  <i class="fa fa-twitter"></i></li></a>
-        </ul>
-        </div>
+      </a>
+      </div>
+      <<a href="#resources">
         <h2>The California wildfire could create a climate change death spiral</h2>
+      </a>
         <h3>Wired UK</h3>
-        <p> here is a quick flash of what the article is about</p>
       </div>
       <div class = "col-md-3 cover-shot text-center">
         <div class = "img-box">
+        <a href="#resources">
         <img src = "img/news.4.jpg" style="max-width:100%;height:auto;" class = "img-responsive"> <!--by adding img-responsive this will make your image responsive--->
-        <ul>
-          <a href = "#"><li>  <i class="fa fa-envelope-o"></i></li></a>
-          <a href = "#"><li>  <i class="fa fa-facebook"></i></li></a>
-          <a href = "#"><li>  <i class="fa fa-twitter"></i></li></a>
-        </ul>
-        </div>
+        </a>
+      </div>
+      <a href="#resources">
         <h2>Venezuela's last glacier is about to disappear</h2>
+      </a>
         <h3>National Geographic</h3>
-        <p> here is a quick flash of what the article is about</p>
       </div>
     </div>
   </div>

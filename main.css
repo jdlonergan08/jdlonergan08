@@ -88,12 +88,17 @@ li a:hover {
   text-align: center;
   color: #efefef !important;
   padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 #summary h5
 {
   font-family:"Times New Roman", Times, serif;
   text-align: left;
+  padding-left: 25px;
+  padding-right: 25px;
+  line-height: 30px;;
 }
 
 #summary p
@@ -167,7 +172,23 @@ li a:hover {
   width: 100%;
 }
 
+#slider .carousel-item
+{
+  background: linear-gradient(
+     rgba(0, 0, 0, 0.5),
+     rgba(0, 0, 0, 0.5));
+   }
 
+.carousel-caption h1
+{
+  font-family:"Times New Roman", Times, serif;
+  background-color: white;
+  margin-top: 35%;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: black;
+  font-weight: bold;
+}
 
 .carousel-caption
 {
@@ -191,7 +212,7 @@ li a:hover {
 }
 
 .carousel-caption body {
-  font-family:"Times New Roman", Times, serif;;
+  font-family:"Times New Roman", Times, serif;
   border-width: 2px;
   border-style: dashed;
   border-color: red;
@@ -542,6 +563,6 @@ padding-left: 30px;
 }
 
 #footer .column{
-  width: 33.3%;
+  width: 25%;
   text-align: center;
 }

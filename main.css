@@ -468,15 +468,15 @@ border-radius: 50%;
 
 #resources img
 {
-  padding-bottom: 60px;
-  padding-left: 75px;
-  padding-right: 75px;
+  margin-bottom: 60px;
+
 }
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 #resources .column {
   float: left;
   width: 33.33%;
-  padding: 5px;
+  margin-left: 35px;
+  margin-right: 35px;
 }
 
 /* Clear floats after image containers */
